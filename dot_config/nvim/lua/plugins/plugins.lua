@@ -6,5 +6,6 @@ return {
   {
     "ThePrimeagen/vim-be-good",
     lazy = false,
+    priority = 1000,
   },
 }
