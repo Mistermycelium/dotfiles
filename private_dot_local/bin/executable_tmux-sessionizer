@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
 	selected=$1
 else
-	selected=$(find ~/docker/discordbot ~/gameservers/valheim/vanilla-plus/server/BepInEx/config ~/ ~/.local ~/docker/rcon-client ~/gameservers/valheim/ -mindepth 0 -maxdepth 1 -type d | fzf)
+	selected=$(find ~/ ~/.local ~/school/ ~/personal/ ~/org/ ~/work/ -mindepth 0 -maxdepth 1 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then

@@ -1,10 +1,7 @@
-[user]
-	email = beeheimishappy@gmail.com
-	name = Beeheim
-[safe]
-	directory = /home/mycelium/.oh-my-zsh
 [init]
 	defaultBranch = main
-[alias]
-	myce = commit --author=\"Cody Smith <csmith.su@gmail.com>\"
-	staash = stash --all
+[user]
+	email = csmith.su@gmail.com
+	name = Cody Smith
+[rerere]
+	enabled = true
