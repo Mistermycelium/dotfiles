@@ -4,4 +4,9 @@
 	email = csmith.su@gmail.com
 	name = Cody Smith
 [rerere]
-	enabled = true
+  enabled = true
+[init]
+	defaultBranch = main
+[alias]
+	myce = commit --author=\"Cody Smith <csmith.su@gmail.com>\"
+	staash = stash --all
