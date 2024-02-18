@@ -1,15 +1,8 @@
-alias modded="cd ~/gameservers/valheim/beeheim-modded"
-alias moddedconfig="cd ~/gameservers/valheim/beeheim-modded/server/BepInEx/config"
-alias plus="cd ~/gameservers/valheim/vanilla-plus"
-alias plusconfig="cd ~/gameservers/valheim/vanilla-plus/server/BepInEx/config"
-alias vanilla="cd ~/gameservers/valheim/vanilla"
-alias vanillaconfig="cd ~/gameservers/valheim/vanilla/server/BepInEx/config"
-alias recording="cd ~/gameservers/valheim/beeheim-recording"
-alias recordingconfig="cd ~/gameservers/valheim/beeheim-recording/server/BepInEx/config"
 alias restartifsafe="bash ~/.local/bin/container-restart.sh | grcat conf.valheim"
-alias rcon='docker exec beeheim-rcon /rcon -s -e'
+# alias rcon='docker exec beeheim-rcon /rcon -s -e'
 alias rcon-generic='docker exec beeheim-rcon /rcon -s'
 alias dockerps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}"'
 alias manpages='compgen -c | grep -v "^_" | sort | fzf | xargs man'
 # alias vstatus='pgrep valheim_server | xargs -I {} grep "^State:" /proc/{}/status'
 alias chupdate='chezmoi managed -i files | xargs -I {} chezmoi add $HOME/{}'
+alias vim='nvim'
