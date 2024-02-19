@@ -108,4 +108,5 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 path+=('/home/mycelium/.local/bin/')
+path+=('/home/mycelium/.local/scripts/')
 eval source <(/usr/local/bin/starship init zsh --print-full-init)
