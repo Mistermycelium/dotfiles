@@ -5,9 +5,9 @@ return {
     config = function()
       require("distant"):setup({
         ["network.private"] = true,
-        manager = {
-          log_file = "$HOME/.distant.log",
-        },
+        -- manager = {
+        --   log_file = ".distant.log",
+        -- },
         servers = {
           ["*"] = {
             connect = {
@@ -23,12 +23,13 @@ return {
             cwd = "~/",
             username = "beeheim",
             key = "id_rsa",
-            launch = {
-              bin = "/path/to/distant",
-            },
+            -- launch = {
+            --   bin = "/path/to/distant",
+            -- },
           },
         },
       })
     end,
+    lazy = true,
   },
 }
