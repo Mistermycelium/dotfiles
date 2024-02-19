@@ -107,5 +107,5 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-path+=('/home/beeheim/.local/bin/')
+path+=('/home/mycelium/.local/bin/')
 eval source <(/usr/local/bin/starship init zsh --print-full-init)
