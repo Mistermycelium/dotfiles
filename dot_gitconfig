@@ -10,3 +10,5 @@
 [alias]
 	myce = commit --author=\"Cody Smith <csmith.su@gmail.com>\"
 	staash = stash --all
+[color]
+	ui = true
