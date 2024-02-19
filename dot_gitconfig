@@ -10,5 +10,9 @@
 [alias]
 	myce = commit --author=\"Cody Smith <csmith.su@gmail.com>\"
 	staash = stash --all
+	amend = commit --amend
+	am = commit --amend
+	ci = commit
+	co = checkout
 [color]
 	ui = true
