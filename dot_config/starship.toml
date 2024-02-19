@@ -5,14 +5,18 @@
 add_newline = false
 
 # A minimal left prompt
-# format = """$character$git_status"""
+format = """$directory$character$git_status"""
 
 # move the rest of the prompt to the right
-# right_format = """$all"""
+right_format = """$all"""
 
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
 success_symbol = '[➜](green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# Disable Line Breaks
+[line_break]
+disabled = true
 
 # Git Status Clarity
 
