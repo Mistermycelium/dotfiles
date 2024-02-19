@@ -14,5 +14,6 @@
 	am = commit --amend
 	ci = commit
 	co = checkout
+	br = branch
 [color]
 	ui = true
