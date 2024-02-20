@@ -5,7 +5,10 @@
 -- Map <leader>Pt to telescope builtins using recordings
 vim.keymap.set("n", "<leader>Pt", function()
   require("telescope.builtin").builtin()
-end, { noremap = true, silent = true, desc = "Telescope" })
+end, { noremap = true, silent = true, desc = "Builtins" })
+vim.keymap.set("n", "<leader>Pe", function()
+  require("telescope.builtin").find_files()
+end, { noremap = true, silent = true, desc = "Find Files" })
 
 -- remap <C-d> and <C-u> to scroll the view
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
@@ -30,3 +33,8 @@ vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]], { desc = "Delete without repl
 
 -- Map <leader>r to replace word under cursor
 vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+-- Remap <leader>e to open oil
+vim.keymap.set("n", "<leader>e", function()
+  require("oil").open_float()
+end, { desc = "Open Oil" })
