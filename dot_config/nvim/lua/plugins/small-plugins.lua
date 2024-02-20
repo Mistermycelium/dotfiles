@@ -5,7 +5,7 @@ return {
   -- ThePrimeagen/vim-be-good
   {
     "ThePrimeagen/vim-be-good",
-    lazy = false,
+    lazy = true,
     priority = 1000,
   },
 }
