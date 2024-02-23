@@ -1,0 +1,4 @@
+[git]
+audoAdd = true
+autoCommit = true
+autoPush = true
