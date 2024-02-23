@@ -5,3 +5,4 @@ alias dockerps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.RunningFor}
 alias manpages='compgen -c | grep -v "^_" | sort | fzf | xargs man'
 alias chupdate='chezmoi managed -i files | xargs -I {} chezmoi add $HOME/{}'
 alias vim='nvim'
+alias vimconfig='cd ~/.config/nvim/ && nvim && cd -'
